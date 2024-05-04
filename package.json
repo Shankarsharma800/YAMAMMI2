@@ -1,0 +1,23 @@
+{
+    "private": true,
+    "main": "./chat/src/index.js",
+    "scripts": {
+        "build": "vite build",
+        "start": "nodemon ./chat/src/index.js",
+        "dev": "nodemon ./chat/src/index.js"
+    },
+    "devDependencies": {
+        "axios": "^1.1.2",
+        "laravel-echo": "^1.16.1",
+        "laravel-vite-plugin": "^0.7.2",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "pusher-js": "^8.4.0-rc2",
+        "vite": "^4.0.0"
+    },
+    "dependencies": {
+        "express": "^4.19.2",
+        "nodemon": "^3.1.0",
+        "socket.io": "^4.7.5"
+    }
+}
